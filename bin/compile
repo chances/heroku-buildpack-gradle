@@ -63,7 +63,7 @@ fi
 BUILDCMD="./gradlew"
 chmod +x ${BUILD_DIR}/gradlew
 
-BUILDCMD="$BUILDCMD $GRADLE_TASK && $BUILDCMD buildProduct"
+BUILDCMD="$BUILDCMD $GRADLE_TASK buildProduct"
 
 cd $BUILD_DIR
 
